@@ -295,7 +295,6 @@ input::-webkit-inner-spin-button{
 .useful__item{
 	padding: 3rem;
 	background: #fff;
-	border-radius: 10px;
 	box-shadow: 0 0 5px #d7d7d7;
 	transition: .2s linear;
 	border: 1px solid transparent;
@@ -432,6 +431,192 @@ input::-webkit-inner-spin-button{
 
 .form__content{
 	max-width: 550px;
+}
+
+/* Наши проекты */
+.projects{
+	padding: 6rem 0;
+	position: relative;
+}
+
+.projects__inner{
+	
+}
+
+/* Команда */
+.team{
+	padding: 8rem 0 23rem 0;
+	background: url("assets/img/team-bg.svg") center no-repeat;
+	background-size: cover;
+	position: relative;
+	top: 150px;
+	margin-top: -15rem;
+}
+
+.team__text{
+	margin-top: 1rem;
+	font-size: 2rem;
+}
+
+.team__content{
+	margin-top: 6rem;
+	display: grid;
+	grid-gap: 50px;
+	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.team__item{
+	background: #fff;
+	padding: 4rem;
+	border: 1px solid #7c14fd;
+	justify-content: space-between;
+}
+
+.team__item--name{
+	font-size: 2.2rem;
+	font-weight: 600;
+	margin-top: 3rem;
+}
+
+.team__item--role{
+	margin-top: .5rem;
+	font-size: 1.8rem;
+}
+
+.team__item--live{
+	margin-top: 1rem;
+}
+
+.team__item--button{
+	margin-top: 2rem;
+	border: 1px solid #7c14fd;
+	padding: 1.2rem 3rem;
+	color: #fff;
+	background: #7c14fd;
+}
+
+.team__item--button:hover{
+	background: #fff;
+	color: #7c14fd;
+}
+
+/* Этапы работы */
+.projects__button{
+	margin-top: 4rem;
+}
+
+.projects__slider{
+	width: 75%;
+	margin-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+.projects__slider--img{
+	width: 100%;
+	height: auto;
+}
+
+.slick__dot{
+	width: 12px;
+	height: 12px;
+	background: #8D3AF3;
+}
+
+.project__wrapper{
+	margin-top: 20rem;
+}
+
+.projects__bg{
+	position: absolute;
+	z-index: -1;
+	pointer-events: none;
+	top: 42%;
+	left: 0;
+	max-width: 100%;
+}
+
+/* Подвал */
+.footer{
+	padding: 15rem 0rem 10rem 0;
+	background: url("assets/img/footer-bg.svg") center no-repeat;
+	background-size: cover;
+}
+
+.footer__inner{
+	width: 100%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+.footer__logo, .footer__logo--text{
+	color: #fff;
+}
+
+.footer__logo{
+	font-size: 4rem;
+	font-weight: 600;
+}
+
+.footer__logo--text{
+	font-size: 1.8rem;
+	margin-top: 1rem;
+}
+
+.footer__wrapper{
+	display: flex;
+	align-items: flex-end;
+}
+
+.footer__nav{
+	width: 100%;
+	max-width: 300px;
+	margin-right: 9rem;
+}
+
+.footer__nav:last-child{
+	margin-right: 0;
+}
+
+.footer__nav--link, .footer__phone{
+	font-size: 1.8rem;
+	color: #fff;
+	margin-top: 0.5rem;
+}
+
+.footer__address{
+	color: #fff;
+}
+
+.footer__phone{
+	margin-top: 2rem;
+}
+
+.footer__nav--link:hover, .footer__phone:hover{
+	color: #ccc;
+}
+
+.footer__nav--link:first-child{
+	margin-top: 0;
+}
+
+.footer__social--inner{
+	display: flex;
+	align-items: center;
+	margin-top: 4rem;
+}
+
+.footer__social--link{
+	display: flex;
+	margin-right: 2rem;
+}
+
+.footer__social--link:hover{
+	opacity: 0.6;
+}
+
+.footer__social--link:last-child{
+	margin-top: 0;
 }
 
 /* Адаптив */
